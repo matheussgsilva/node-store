@@ -16,7 +16,7 @@ const schema = new Schema({
         index: true,
         unique: true
     },
-    descriptiom: {
+    description: {
         type: String,
         required: true
     },
