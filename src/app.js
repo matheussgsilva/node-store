@@ -13,6 +13,7 @@ mongoose.connect('mongodb+srv://matheussgsilva:Bg4h03DEZHFWIjEu@cluster0.irwcn1k
 // Load Models
 const Product = require('./models/product');
 const Customer = require('./models/customer');
+const Order = require('./models/order');
 
 // Load Routes
 const indexRoute = require('./routes/index-route');
